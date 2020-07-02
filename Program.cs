@@ -9,7 +9,7 @@ namespace Crypton
         static void Main(string[] args)
         {
             string message = "Hello World";
-            int key = 111;
+            int key = 11;
 
             Console.WriteLine($"Message: {message}");
             Console.WriteLine($"Encrypt: {Encrypt(message, key)}");
@@ -22,30 +22,26 @@ namespace Crypton
 
         static string Encrypt(string message, int key)
         {
-            List<int> encryptedArray = new List<int>();
+            string encryptedText = null;
 
-            int[] messageArray = message.ToCharArray().Select(item => (int)item).ToArray<int>();
-
-            foreach (int item in messageArray)
+            foreach (int item in message)
             {
-                encryptedArray.Add(item ^ key);
+                encryptedText += (char) (item ^ key);
             }
 
-            return string.Join(".", encryptedArray);
+            return encryptedText;
         }
 
         static string Decrypt(string message, int key)
         {
-            List<int> decryptedArray = new List<int>();
+            string decryptedText = null;
 
-            int[] messageArray = message.Split('.').Select(item => int.Parse(item)).ToArray();
-
-            foreach (int item in messageArray)
+            foreach (int item in message)
             {
-                decryptedArray.Add(item ^ key);
+                decryptedText += (char) (item ^ key);
             }
 
-            return string.Join("", decryptedArray.Select(item => (char)item));
+            return decryptedText;
         }
     }
 }
