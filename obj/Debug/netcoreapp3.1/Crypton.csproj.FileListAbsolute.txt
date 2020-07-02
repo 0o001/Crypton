@@ -1,0 +1,13 @@
+C:\Users\musta\source\repos\Crypton\Crypton\bin\Debug\netcoreapp3.1\Crypton.exe
+C:\Users\musta\source\repos\Crypton\Crypton\bin\Debug\netcoreapp3.1\Crypton.deps.json
+C:\Users\musta\source\repos\Crypton\Crypton\bin\Debug\netcoreapp3.1\Crypton.runtimeconfig.json
+C:\Users\musta\source\repos\Crypton\Crypton\bin\Debug\netcoreapp3.1\Crypton.runtimeconfig.dev.json
+C:\Users\musta\source\repos\Crypton\Crypton\bin\Debug\netcoreapp3.1\Crypton.dll
+C:\Users\musta\source\repos\Crypton\Crypton\bin\Debug\netcoreapp3.1\Crypton.pdb
+C:\Users\musta\source\repos\Crypton\Crypton\obj\Debug\netcoreapp3.1\Crypton.csprojAssemblyReference.cache
+C:\Users\musta\source\repos\Crypton\Crypton\obj\Debug\netcoreapp3.1\Crypton.AssemblyInfoInputs.cache
+C:\Users\musta\source\repos\Crypton\Crypton\obj\Debug\netcoreapp3.1\Crypton.AssemblyInfo.cs
+C:\Users\musta\source\repos\Crypton\Crypton\obj\Debug\netcoreapp3.1\Crypton.csproj.CoreCompileInputs.cache
+C:\Users\musta\source\repos\Crypton\Crypton\obj\Debug\netcoreapp3.1\Crypton.dll
+C:\Users\musta\source\repos\Crypton\Crypton\obj\Debug\netcoreapp3.1\Crypton.pdb
+C:\Users\musta\source\repos\Crypton\Crypton\obj\Debug\netcoreapp3.1\Crypton.genruntimeconfig.cache
