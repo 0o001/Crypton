@@ -12,36 +12,24 @@ namespace Crypton
             int key = 11;
 
             Console.WriteLine($"Message: {message}");
-            Console.WriteLine($"Encrypt: {Encrypt(message, key)}");
+            Console.WriteLine($"Encrypt: {Crypt(message, key)}");
 
-            string encrypted = Encrypt(message, key);
+            string encrypted = Crypt(message, key);
 
-            Console.WriteLine($"Decrypt: {Decrypt(encrypted, key)}");
+            Console.WriteLine($"Decrypt: {Crypt(encrypted, key)}");
             Console.ReadLine();
         }
 
-        static string Encrypt(string message, int key)
+        static string Crypt(string message, int key)
         {
-            string encryptedText = null;
+            string cryptedMessage = null;
 
             foreach (int item in message)
             {
-                encryptedText += (char) (item ^ key);
+                cryptedMessage += (char) (item ^ key);
             }
 
-            return encryptedText;
-        }
-
-        static string Decrypt(string message, int key)
-        {
-            string decryptedText = null;
-
-            foreach (int item in message)
-            {
-                decryptedText += (char) (item ^ key);
-            }
-
-            return decryptedText;
+            return cryptedMessage;
         }
     }
 }
