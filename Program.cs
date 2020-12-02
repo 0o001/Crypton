@@ -22,14 +22,7 @@ namespace Crypton
 
         static string Crypt(string message, int key)
         {
-            string cryptedMessage = null;
-
-            foreach (int item in message)
-            {
-                cryptedMessage += (char) (item ^ key);
-            }
-
-            return cryptedMessage;
+            return new string(message.Select(item => (char)(item ^ key)).ToArray());
         }
     }
 }
